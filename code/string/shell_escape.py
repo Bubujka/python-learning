@@ -2,3 +2,6 @@
 """
 Экранирование аргументов для shell команды
 """
+import shlex
+print(shlex.quote("""rm -rf ' " ( ) " \ """))
+
