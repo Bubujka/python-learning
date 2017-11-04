@@ -2,3 +2,7 @@
 """
 Объединить 2 строки
 """
+world = "WORLD"
+print("hello" + ", " + world)
+
+

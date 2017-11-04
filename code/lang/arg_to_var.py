@@ -2,3 +2,7 @@
 """
 Присвоить аргумент переданный в переменную
 """
+import sys
+name = sys.argv[1]
+print("Hello, "+name)
+
