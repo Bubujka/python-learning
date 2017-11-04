@@ -2,3 +2,10 @@
 """
 Проверить на null
 """
+
+gender = None
+
+print(gender is None)
+print(gender is not None)
+
+
