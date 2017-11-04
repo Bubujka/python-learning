@@ -2,3 +2,6 @@
 """
 Получить размер файла
 """
+
+import os.path
+print(os.path.getsize('_stub/dirs.txt'))
