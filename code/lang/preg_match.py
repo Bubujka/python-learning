@@ -2,3 +2,10 @@
 """
 Проверка что строка подходит под регулярное выражение
 """
+import re
+
+print(re.match("^bu", "bubujka"))
+print(re.match("^zu", "bubujka"))
+
+
+

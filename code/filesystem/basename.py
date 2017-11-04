@@ -2,3 +2,6 @@
 """
 Получить имя файла из пути
 """
+from os import path
+pth = '/home/bubujka/ololo/hello.txt'
+print(path.basename(pth))
