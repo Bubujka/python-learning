@@ -2,3 +2,6 @@
 """
 Получить unixtime время
 """
+import time
+print(time.time())
+
