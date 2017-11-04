@@ -2,3 +2,10 @@
 """
 Значение FALSE
 """
+
+if True:
+    print("True printing")
+
+if False:
+    print("False not printing")
+
