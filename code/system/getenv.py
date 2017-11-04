@@ -2,3 +2,6 @@
 """
 Получить переменные окружения /home/bubujka, bubujka
 """
+
+import os
+print(os.environ['HOME'])
