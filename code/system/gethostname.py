@@ -2,3 +2,5 @@
 """
 Получить hostname
 """
+import socket
+print(socket.gethostname())

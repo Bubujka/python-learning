@@ -8,5 +8,3 @@ import glob
 print(glob.glob('_stub/*.txt'))
 print(glob.glob('_stub/**/*.txt', recursive=True))
 print(glob.glob('_stub/*'))
-
-

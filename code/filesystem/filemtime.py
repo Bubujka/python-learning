@@ -2,3 +2,8 @@
 """
 Получить время модификации файла
 """
+
+from os import path
+print(path.getmtime("_stub/dirs.txt"))
+
+
