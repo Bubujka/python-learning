@@ -2,3 +2,10 @@
 """
 Объявление функций
 """
+
+def hello():
+    """Demo function"""
+    print('hello world')
+
+
+hello()
