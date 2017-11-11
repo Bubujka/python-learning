@@ -2,3 +2,11 @@
 """
 Удалить свойство из объекта
 """
+
+ME = { 'name': 'bubujka', 'age': 23 }
+
+print(ME)
+del ME['age']
+print(ME)
+
+

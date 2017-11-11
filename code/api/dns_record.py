@@ -2,3 +2,8 @@
 """
 Получить ip по домену
 """
+
+import socket
+print(socket.gethostbyname('ya.ru'))
+
+
