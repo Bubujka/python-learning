@@ -2,3 +2,10 @@
 """
 Подробный if
 """
+
+if False:
+    print("Nope")
+elif None:
+    print("Also Nope")
+else:
+    print("YEES")
